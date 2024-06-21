@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * comment
  */
-public class TextAnalyzer {
+public class ZapikDimka_TextAnalyzer {
     public int countWords(List<String> lines) {
         int wordCount = 0;
         for (String line : lines) {

@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * comment
  */
-public class TextFileProcessor {
+public class ZapikDimka_TextFileProcessor {
     public static void main(String[] args) {
         if (args.length != 2) {
             System.err.println("Usage: java -jar Task5.jar <input file> <output file>");
@@ -16,10 +16,10 @@ public class TextFileProcessor {
         String inputFile = args[0];
         String outputFile = args[1];
 
-        FileReader fileReader = new FileReader();
-        TextAnalyzer textAnalyzer = new TextAnalyzer();
-        TextProcessor textProcessor = new TextProcessor(textAnalyzer);
-        FileWriter fileWriter = new FileWriter();
+        ZapikDimka_FileReader fileReader = new ZapikDimka_FileReader();
+        ZapikDimka_TextAnalyzer textAnalyzer = new ZapikDimka_TextAnalyzer();
+        ZapikDimka_TextProcessor textProcessor = new ZapikDimka_TextProcessor(textAnalyzer);
+        ZapikDimka_FileWriter fileWriter = new ZapikDimka_FileWriter();
 
         try {
             List<String> lines = fileReader.readLines(inputFile);

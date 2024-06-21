@@ -4,8 +4,9 @@
         "https://checkstyle.org/dtds/configuration_1_3.dtd">
 
 <module name="Checker">
-        <!-- Custom check to ensure class names start with 'cicd' -->
+        <!-- Custom check to ensure class names start with 'ZapikDimka_' -->
     <module name="RegexpOnFilename">
+        <property name="fileNamePattern" value="^ZapikDimka_.*"/>
         <property name="match" value="false"/>
         <message key="regexp.filename.mismatch" value="Class names should start with 'cicd'"/>
     </module>

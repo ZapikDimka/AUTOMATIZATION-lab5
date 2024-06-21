@@ -5,10 +5,10 @@ import java.util.List;
 /**
  * comment
  */
-public class TextProcessor {
-    private final TextAnalyzer analyzer;
+public class ZapikDimka_TextProcessor {
+    private final ZapikDimka_TextAnalyzer analyzer;
 
-    public TextProcessor(TextAnalyzer analyzer) {
+    public ZapikDimka_TextProcessor(ZapikDimka_TextAnalyzer analyzer) {
         this.analyzer = analyzer;
     }
 

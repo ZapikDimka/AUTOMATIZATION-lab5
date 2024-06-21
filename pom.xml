@@ -45,7 +45,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>org.ZapikDimka.TextFileProcessor</mainClass>
+                            <mainClass>org.ZapikDimka.ZapikDimka_TextFileProcessor</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
