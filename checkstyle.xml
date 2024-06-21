@@ -8,6 +8,6 @@
     <module name="RegexpOnFilename">
         <property name="fileNamePattern" value="^ZapikDimka_.*"/>
         <property name="match" value="false"/>
-        <message key="regexp.filename.mismatch" value="Class names should start with 'cicd'"/>
+        <message key="regexp.filename.mismatch" value="Class names should start with 'ZapikDimka_'"/>
     </module>
 </module>
