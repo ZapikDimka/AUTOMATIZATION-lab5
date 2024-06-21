@@ -25,6 +25,16 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <distributionManagement>
+        <repository>
+            <id>my-repo-id</id>
+            <url>http://your-repo-url/repository</url>
+        </repository>
+        <snapshotRepository>
+            <id>my-snapshot-repo-id</id>
+            <url>http://your-repo-url/snapshot-repository</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <build>
         <plugins>
