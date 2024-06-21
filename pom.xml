@@ -27,13 +27,10 @@
     </dependencies>
     <distributionManagement>
         <repository>
-            <id>my-repo-id</id>
-            <url>http://your-repo-url/repository</url>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/ZapikDimka/AUTOMATIZATION-lab5</url>
         </repository>
-        <snapshotRepository>
-            <id>my-snapshot-repo-id</id>
-            <url>http://your-repo-url/snapshot-repository</url>
-        </snapshotRepository>
+
     </distributionManagement>
 
     <build>
